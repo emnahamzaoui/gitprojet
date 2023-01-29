@@ -38,7 +38,7 @@ public class Level1 {
 		/* First Way */
 		employees.stream().filter((Employee e)->e.getSalary()>600).forEach(e->System.out.println(e.getName()));
 		/* Second Way */
-		employees.stream().filter((Employee e)->e.getSalary()>700).map(t->t.getName())
+		employees.stream().filter((Employee e)->e.getSalary()>800).map(t->t.getName())
 				.forEach(e->System.out.println(e));
 
 		/*
