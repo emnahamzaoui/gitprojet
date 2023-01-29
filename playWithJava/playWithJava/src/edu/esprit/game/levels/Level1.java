@@ -21,14 +21,14 @@ public class Level1 {
 		 * TO DO 3: Afficher les employ�s dont le nom commence par la lettre n
 		 * et le salaire> 1000
 		 */
-		employees.stream().filter((Employee e)->e.getName().startsWith("x")).filter((Employee e)->e.getSalary()>100)
+		employees.stream().filter((Employee e)->e.getName().startsWith("a")).filter((Employee e)->e.getSalary()>100)
 				.forEach(e->System.out.println(e));
 
 		/*
 		 * TO DO 4: Afficher les employ�s dont le nom commence par la lettre s
 		 * tri�s par salaire
 		 */
-		employees.stream().filter((Employee e)->e.getName().startsWith("x")).sorted((Employee e,Employee e1)->e.getSalary()-e1.getSalary())
+		employees.stream().filter((Employee e)->e.getName().startsWith("a")).sorted((Employee e,Employee e1)->e.getSalary()-e1.getSalary())
 				.forEach(e->System.out.println(e));
 
 		/*
