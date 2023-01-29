@@ -35,9 +35,9 @@ public class Level1 {
 		 * TO DO 5: Afficher les noms des employ�s dont le salaire > 600 avec 2
 		 * mani�res diff�rentes
 		 */
-		/* First Way */
+		/* First solution hey  */
 		employees.stream().filter((Employee e)->e.getSalary()>600).forEach(e->System.out.println(e.getName()));
-		/* Second Way */
+		/* Second solution    hey */
 		employees.stream().filter((Employee e)->e.getSalary()>800).map(t->t.getName())
 				.forEach(e->System.out.println(e));
 
