@@ -28,7 +28,7 @@ public class Level1 {
 		 * TO DO 4: Afficher les employ�s dont le nom commence par la lettre s
 		 * tri�s par salaire
 		 */
-		employees.stream().filter((Employee e)->e.getName().startsWith("w")).sorted((Employee e,Employee e1)->e.getSalary()-e1.getSalary())
+		employees.stream().filter((Employee e)->e.getName().startsWith("x")).sorted((Employee e,Employee e1)->e.getSalary()-e1.getSalary())
 				.forEach(e->System.out.println(e));
 
 		/*
@@ -45,7 +45,7 @@ public class Level1 {
 		 * TO DO 6: Ajouter 200 D pour les employ�s dont le nom commence avec m
 		 * et les affich�s ensuite
 		 */
-		employees.stream().filter((Employee e)->e.getName().startsWith("w")).forEach(e->{e.setSalary(e.getSalary()+200);System.out.println(e);});
+		employees.stream().filter((Employee e)->e.getName().startsWith("x")).forEach(e->{e.setSalary(e.getSalary()+200);System.out.println(e);});
 
 	}
 }
