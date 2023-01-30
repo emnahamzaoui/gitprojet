@@ -21,7 +21,7 @@ public class Level1 {
 		 * TO DO 3: Afficher les employ�s dont le nom commence par la lettre n
 		 * et le salaire> 1000
 		 */
-		employees.stream().filter((Employee e)->e.getName().startsWith("a")).filter((Employee e)->e.getSalary()>100)
+		employees.stream().filter((Employee e)->e.getName().startsWith("a")).filter((Employee e)->e.getSalary()>5000000000)
 				.forEach(e->System.out.println(e));
 
 		/*

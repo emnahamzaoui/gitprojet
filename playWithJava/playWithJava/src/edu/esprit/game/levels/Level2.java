@@ -17,7 +17,7 @@ public class Level2 {
 	long sum = employees.stream().mapToInt((Employee e)->e.getSalary()).sum();	
 		
 	/* TO DO 3: Retourner la moyenne des salaires des employ�s dont le nom commence avec s */	
-	double average = employees.stream().filter((Employee e)->e.getName().startsWith("s")).mapToInt((Employee e)->e.getSalary()).average().getAsDouble();
+	double average = employees.stream().filter((Employee e)->e.getName().startsWith("m")).mapToInt((Employee e)->e.getSalary()).average().getAsDouble();
 		
 		
 	/* TO DO 4: Retourner la liste de tous les employ�s  */	
