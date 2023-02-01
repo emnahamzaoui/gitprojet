@@ -13,7 +13,7 @@ public class Level1 {
 		employees.stream().forEach((Employee e)-> System.out.println(e));
 
 		/*
-		 * TO DO 2: Afficher les employ�s dont le nom commence par la lettre n
+		 * TO DO 2: Afficher les employes dont le nom commence par la lettre n
 		 */
 		employees.stream().filter((Employee e)->e.getName().startsWith("x")).forEach(e->System.out.println("11-"+e));
 
