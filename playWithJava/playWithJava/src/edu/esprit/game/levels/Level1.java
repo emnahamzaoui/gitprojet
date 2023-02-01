@@ -9,7 +9,7 @@ public class Level1 {
 	public static void main(String[] args) {
 		List<Employee> employees = Data.employees();
 
-		/* TO DO 1: Afficher tous les employ�s */
+		/* TO DO 1: Afficher tous les employes */
 		employees.stream().forEach((Employee e)-> System.out.println(e));
 
 		/*
