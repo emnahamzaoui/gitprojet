@@ -9,7 +9,8 @@ public class Employee {
 	public Employee() {
 		// TODO Auto-generated constructor stub
 	}
-
+    // class Employee
+	
 	public Employee(String name, String post, Integer salary) {
 		super();
 		this.name = name;
