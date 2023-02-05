@@ -10,7 +10,7 @@ public class Employee {
 		// TODO Auto-generated constructor stub
 	}
     // class Employee
-	
+
 	public Employee(String name, String post, Integer salary) {
 		super();
 		this.name = name;
@@ -25,7 +25,7 @@ public class Employee {
 	public void setName(String name) {
 		this.name = name;
 	}
-
+    // funtion get post
 	public String getPost() {
 		return post;
 	}
