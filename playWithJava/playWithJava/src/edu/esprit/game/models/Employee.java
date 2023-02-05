@@ -21,7 +21,7 @@ public class Employee {
 	public String getName() {
 		return name;
 	}
-
+    // get name
 	public void setName(String name) {
 		this.name = name;
 	}
