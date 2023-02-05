@@ -18,7 +18,7 @@ public class Level3 {
         /* TO DO 1: Retourner une chaine de caractére qui contient tous les noms des employés */
         System.out.println("tout les nom dans une chaine");
         String names = employees.stream().map(Employee::getName).reduce("", (e1, e2) -> e1 + " " + e2);/* TO DO 1  hint(reduce)*/;
-        System.out.println(names);
+        System.out.println(nom);
         System.out.println("--------------------------");
         System.out.println("------------------riadh--------------------");
 

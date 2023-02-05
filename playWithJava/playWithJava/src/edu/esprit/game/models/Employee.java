@@ -9,6 +9,7 @@ public class Employee {
 	public Employee() {
 		// TODO Auto-generated constructor stub
 	}
+    // class Employee
 
 	public Employee(String name, String post, Integer salary) {
 		super();
@@ -16,15 +17,15 @@ public class Employee {
 		this.post = post;
 		this.salary = salary;
 	}
-
+// get name
 	public String getName() {
 		return name;
 	}
-
+    // get name
 	public void setName(String name) {
 		this.name = name;
 	}
-
+    //   funtion get post
 	public String getPost() {
 		return post;
 	}
