@@ -12,10 +12,12 @@ public class Employee {
 
 	public Employee(String name, String post, Integer salary) {
 		super();
+
 		this.name = name;
 		this.post = post;
 		this.salary = salary;
 	}
+	// nouvelle modif
 
 	public String getName() {
 		return name;
