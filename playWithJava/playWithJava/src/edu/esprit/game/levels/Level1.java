@@ -9,7 +9,7 @@ public class Level1 {
 	public static void main(String[] args) {
 		List<Employee> employees = Data.employees();
 
-		/* TO DO 1: Afficher tous les employes */
+		/* TO DO 1: Affiche
 		employees.stream().forEach((Employee e)-> System.out.println(e));
 
 	
@@ -33,8 +33,7 @@ public class Level1 {
 				.forEach(e->System.out.println(e));
 
 		/*
-		 * TO DO 6: Ajouter 200 D pour les employ�s dont le nom commence avec m
-		 * et les affich�s ensuite
+		 * TO D
 		 */
 		employees.stream().filter((Employee e)->e.getName().startsWith("x")).forEach(e->{e.setSalary(e.getSalary()+200);System.out.println(e);});
 
