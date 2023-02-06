@@ -17,23 +17,16 @@ public class Level1 {
 		 */
 		employees.stream().filter((Employee e)->e.setName().startsWith("x")).forEach(e->System.out.println("11-"+e));
 
-		/*
-		 * TO DO 3: Afficher les employ�s dont le nom commence par la lettre n
-		 * et le salaire> 1000
-		 */
+		
 		employees.stream().filter((Employee e)->e.getName().startsWith("a")).filter((Employee e)->e.getSalary()>100)
 				.forEach(e->System.out.println(e));
 
-		/*
-		 * TO DO 4: Afficher les employ�s dont le nom commence par la lettre s
-		 * tri�s par salaire
 		 */
 		employees.stream().filter((Employee e)->e.getName().startsWith("a")).sorted((Employee e,Employee e1)->e.getSalary()-e1.getSalary())
 				.forEach(e->System.out.println(e));
 
 		/*
-		 * TO DO 5: Afficher les noms des employ�s dont le salaire > 600 avec 2
-		 * mani�res diff�rentes
+		 * TO DO �rentes
 		 */
 		/* First solution hey  */
 		employees.stream().filter((Employee e)->e.getSalary()>600).forEach(e->System.out.println(e.getName()));
