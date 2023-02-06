@@ -19,7 +19,7 @@ public class Employee {
 		this.salary = salary;
 	}
 
-	// nouvelle modif
+	// nouvelle moudification
 
 =======
 // get name
