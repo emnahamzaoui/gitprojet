@@ -18,16 +18,20 @@ public class Employee {
 		this.post = post;
 		this.salary = salary;
 	}
-<<<<<<< HEAD
-	// nouvelle modif
+
+	// nouvelle moudification
 
 =======
 // get name
->>>>>>> bdf38c8c0fd2e0d95ed6dc638ea8476bd73fc95c
+
 	public String getName() {
 		return name;
 	}
-    // get name
+<<<<<<< HEAD
+    // get by emna
+=======
+    // get nim
+>>>>>>> 1e15ddb92f32cf00fdaaa53389e880c296e95722
 	public void setName(String name) {
 		this.name = name;
 	}
