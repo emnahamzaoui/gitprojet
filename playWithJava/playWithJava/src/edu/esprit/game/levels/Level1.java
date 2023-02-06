@@ -9,19 +9,19 @@ public class Level1 {
 	public static void main(String[] args) {
 		List<Employee> employees = Data.employees();
 
-		/* TO DO 1: Afficher tous les employ�s */
+		/* TO DO 1: Afficher tous les employes */
 		employees.stream().forEach((Employee e)-> System.out.println(e));
 
 		/*
-		 * TO DO 2: Afficher les employ�s dont le nom commence par la lettre n
+		 * TO DO 2: Afficher les employes dont le nom commence par la lettre n
 		 */
-		employees.stream().filter((Employee e)->e.getName().startsWith("n")).forEach(e->System.out.println("11-"+e));
+		employees.stream().filter((Employee e)->e.setName().startsWith("x")).forEach(e->System.out.println("11-"+e));
 
 		/*
 		 * TO DO 3: Afficher les employ�s dont le nom commence par la lettre n
 		 * et le salaire> 1000
 		 */
-		employees.stream().filter((Employee e)->e.getName().startsWith("n")).filter((Employee e)->e.getSalary()>100)
+		employees.stream().filter((Employee e)->e.getName().startsWith("a")).filter((Employee e)->e.getSalary()>100)
 				.forEach(e->System.out.println(e));
 
 		/*
@@ -45,7 +45,7 @@ public class Level1 {
 		 * TO DO 6: Ajouter 200 D pour les employ�s dont le nom commence avec m
 		 * et les affich�s ensuite
 		 */
-		employees.stream().filter((Employee e)->e.getName().startsWith("m")).forEach(e->{e.setSalary(e.getSalary()+200);System.out.println(e);});
+		employees.stream().filter((Employee e)->e.getName().startsWith("x")).forEach(e->{e.setSalary(e.getSalary()+200);System.out.println(e);});
 
 	}
 }
