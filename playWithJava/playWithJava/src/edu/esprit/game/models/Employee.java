@@ -24,8 +24,8 @@ public class Employee {
 =======
 // get name
 
-	public String getName() {
-		return name;
+	public String getNameous() {
+		return nameous;
 	}
     // get nimen
 	public void setName(String name) {
