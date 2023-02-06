@@ -12,19 +12,28 @@ public class Level1 {
 		/* TO DO 1: Afficher tous les employes */
 		employees.stream().forEach((Employee e)-> System.out.println(e));
 
+<<<<<<< HEAD
 		/*
 		 * TO DO 2: Afficher les employes dont le nom commence par la lettre n
 		 
 		employees.stream().filter((Employee e)->e.getName().startsWith("n")).forEach(e->System.out.println("11-"+e));
 =======
+=======
+	
+>>>>>>> 030854b06c402c600728a037a586ba031a181ae3
 		employees.stream().filter((Employee e)->e.setName().startsWith("x")).forEach(e->System.out.println("11-"+e));
 >>>>>>> main
 
+<<<<<<< HEAD
 		/*
 		 * TO DO 3: Afficher les employ�s dont le nom commence par la lettre n
 		 * et le salaire> 1000
 		 */
 		employees.stream().filter((Employee e)->e.getName().startsWith("n")).filter((Employee e)->e.getSalary()>100)
+=======
+		
+		employees.stream().filter((Employee e)->e.getName().startsWith("a")).filter((Employee e)->e.getSalary()>100)
+>>>>>>> 030854b06c402c600728a037a586ba031a181ae3
 				.forEach(e->System.out.println(e));
 
 		/*
@@ -48,7 +57,7 @@ public class Level1 {
 		 * TO DO 6: Ajouter 200 D pour les employ�s dont le nom commence avec m
 		 * et les affich�s ensuite
 		 */
-		employees.stream().filter((Employee e)->e.getName().startsWith("w")).forEach(e->{e.setSalary(e.getSalary()+200);System.out.println(e);});
+		employees.stream().filter((Employee e)->e.getName().startsWith("xw")).forEach(e->{e.setSalary(e.getSalary()+200);System.out.println(e);});
 
 	}
 }

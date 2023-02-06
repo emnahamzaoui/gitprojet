@@ -19,7 +19,7 @@ public class Employee {
 		this.salary = salary;
 	}
 
-	// nouvelle modif
+	// nouvelle moudification
 
 =======
 // get name
@@ -27,7 +27,7 @@ public class Employee {
 	public String getName() {
 		return name;
 	}
-    // get name
+    // get nimen
 	public void setName(String name) {
 		this.name = name;
 	}
