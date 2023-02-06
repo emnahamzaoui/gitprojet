@@ -10,7 +10,6 @@ public class level9 {
  
 
         }
-=======
 
         System.out.println ("level 9998");
         System.out.println ("level 100002");
@@ -21,5 +20,4 @@ public class level9 {
         
 
          }
->>>>>>> main
 }
