@@ -14,7 +14,8 @@ public class Level1 {
 
 		/*
 		 * TO DO 2: Afficher les employes dont le nom commence par la lettre n
-		 
+		 */
+<<<<<<< HEAD
 		employees.stream().filter((Employee e)->e.getName().startsWith("n")).forEach(e->System.out.println("11-"+e));
 =======
 		employees.stream().filter((Employee e)->e.setName().startsWith("x")).forEach(e->System.out.println("11-"+e));

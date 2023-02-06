@@ -1,12 +1,24 @@
-
 public class level9 {
     
     
     public static void main(String args[])  {
+<<<<<<< HEAD
+        System.out.println ("level 9889"); 
+        System.out.println ("level 9810");
+        System.out.println ("level 9810"); 
+ 
 
-        System.out.println ("level 9998"); }
+        }
+=======
 
-        System.out.println ("level 9999");
-        System.out.println ("level 999999999999999999999999999"); }
+        System.out.println ("level 9998");
+        System.out.println ("level 100002");
 
+        System.out.println ("level 100001");
+        System.out.println ("level 100002");
+
+        
+
+         }
+>>>>>>> main
 }
