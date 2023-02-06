@@ -24,7 +24,7 @@ public class Employee {
 =======
 // get name
 
-	public String getName() {
+	public String getN() {
 		return name;
 	}
     // get nim
