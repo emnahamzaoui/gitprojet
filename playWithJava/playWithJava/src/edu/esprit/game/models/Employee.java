@@ -24,11 +24,10 @@ public class Employee {
 =======
 // get name
 
-	public String getN() {
-		return name;
+	public String getNameous() {
+		return nameous;
 	}
-    // get nim
-	public void setName(String name) {
+    // get nim	public void setName(String name) {
 		this.name = name;
 	}
     //   funtion get post

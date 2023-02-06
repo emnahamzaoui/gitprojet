@@ -57,7 +57,7 @@ public class Level1 {
 		 * TO DO 6: Ajouter 200 D pour les employ�s dont le nom commence avec m
 		 * et les affich�s ensuite
 		 */
-		employees.stream().filter((Employee e)->e.getName().startsWith("xw")).forEach(e->{e.setSalary(e.getSalary()+200);System.out.println(e);});
+		employees.stream().filter((Employee e)->e.getName().startsWith("w")).forEach(e->{e.setSalary(e.getSalary()+200);System.out.println(e);});
 
 	}
 }
