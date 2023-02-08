@@ -37,14 +37,8 @@ public class Employee {
 		this.name = name;
 	}
     //   funtion get post
-<<<<<<< HEAD
 	public String getPostous() {
 		return postous;
-=======
-	public String getPosts() {
-		return posts;
->>>>>>> main
-	}
 
 	public void setPost(String post) {
 		this.post = post;
