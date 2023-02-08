@@ -12,15 +12,17 @@ import static jdk.nashorn.internal.objects.NativeArray.map;
 public class Level3 {
 
     public static void main(String[] args) {
-        List<Employee> employees = Data.employees();
+       List<Employee> employees = Data.employees();
 
 
         /* TO DO 1: Retourner une chaine de caractére qui contient tous les noms des employés */
         System.out.println("tout les nom dans une chaine");
+
         String names = employees.stream().map(Employee::getName).reduce("", (e1, e2) -> e1 + " " + e2);/* TO DO 1  hint(reduce)*/;
-        System.out.println(nom);
+        System.out.println(names);
         System.out.println("--------------------------");
-        System.out.println("------------------riadh--------------------");
+        System.out.println("------------------bbbbbbbb--------------------");
+
 
         /* TO DO 2: Retourner une chaine de caractére qui contient tous les noms des employés en majuscule separés par # */
         System.out.println("tout les nom en majiscule dans une chaine avec # ");

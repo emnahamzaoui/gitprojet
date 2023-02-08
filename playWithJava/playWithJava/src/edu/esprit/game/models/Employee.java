@@ -19,22 +19,32 @@ public class Employee {
 		this.salary = salary;
 	}
 
-	// nouvelle modif
+	// nouvelle moudification
 
-=======
 // get name
 
 	public String getName() {
 		return name;
 	}
-    // get name
+    // get by emna
+
+    // get nim
+
 	public void setName(String name) {
+
+    // get nim	public void setName(String name) {
+
 		this.name = name;
 	}
     //   funtion get post
-	public String getPost() {
-		return post;
+	public String getPosts() {
+		return posts;
+
+
+
+
 	}
+
 
 	public void setPost(String post) {
 		this.post = post;
@@ -44,8 +54,13 @@ public class Employee {
 		return salary;
 	}
 
+
 	public void setSalary(int salary) {
 		this.salary = salary;
+	}
+	public static AddEmp()
+	{
+		System.out.println("add employyees");
 	}
 
 	@Override
@@ -53,7 +68,10 @@ public class Employee {
 		return "Employee [name=" + name + ", post=" + post + ", salary="
 				+ salary + "]";
 	}
-
+public String toString() {
+		return "Etudiant [name=" + name + ", post=" + post + ", salary="
+				+ salary + "]";
+	}
 	@Override
 	public int hashCode() {
 		final int prime = 31;
