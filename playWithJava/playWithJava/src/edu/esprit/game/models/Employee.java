@@ -21,19 +21,17 @@ public class Employee {
 
 	// nouvelle moudification
 
-=======
 // get name
 
 	public String getNameous() {
 		return nameous;
 	}
-<<<<<<< HEAD
     // get by emna
-=======
+
     // get nim
 
 	public void setName(String name) {
-=======
+
     // get nim	public void setName(String name) {
 
 		this.name = name;
