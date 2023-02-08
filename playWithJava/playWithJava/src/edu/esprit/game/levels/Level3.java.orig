@@ -12,7 +12,7 @@ import static jdk.nashorn.internal.objects.NativeArray.map;
 public class Level3 {
 
     public static void main(String[] args) {
-       List<Employee> employees = Data.employees();
+        List<Employee> employees = Data.employees();
 
 
         /* TO DO 1: Retourner une chaine de caractére qui contient tous les noms des employés */
