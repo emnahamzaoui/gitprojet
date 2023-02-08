@@ -32,8 +32,8 @@ public class Employee {
 		this.name = name;
 	}
     //   funtion get post
-	public String getPost() {
-		return post;
+	public String getPosts() {
+		return posts;
 	}
 
 	public void setPost(String post) {
