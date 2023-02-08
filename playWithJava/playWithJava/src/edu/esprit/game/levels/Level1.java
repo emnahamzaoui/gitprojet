@@ -20,24 +20,19 @@ public class Level1 {
 =======
 =======
 	
->>>>>>> 030854b06c402c600728a037a586ba031a181ae3
 		employees.stream().filter((Employee e)->e.setName().startsWith("x")).forEach(e->System.out.println("11-"+e));
->>>>>>> main
 
-<<<<<<< HEAD
+
 		/*
 		 * TO DO 3: Afficher les employ�s dont le nom commence par la lettre n
 		 * et le salaire> 1000
 		 */
-<<<<<<< HEAD
 		employees.stream().filter((Employee e)->e.getName().startsWith("a")).filter((Employee e)->e.getSalary()>5000000000)
-=======
+
 		employees.stream().filter((Employee e)->e.getName().startsWith("n")).filter((Employee e)->e.getSalary()>100)
-=======
+
 		
 		employees.stream().filter((Employee e)->e.getName().startsWith("a")).filter((Employee e)->e.getSalary()>100)
->>>>>>> 030854b06c402c600728a037a586ba031a181ae3
->>>>>>> d85e83a4936117931dcb95a0a2eb38025e0b3a65
 				.forEach(e->System.out.println(e));
 
 		/*
