@@ -19,21 +19,31 @@ public class Employee {
 		this.salary = salary;
 	}
 
-	// nouvelle modif
+	// nouvelle moudification
 
-=======
 // get name
 
 	public String getName() {
 		return name;
 	}
-    // get name
+    // get by emna
+
+    // get nim
+
 	public void setName(String name) {
+
+    // get nim	public void setName(String name) {
+
 		this.name = name;
 	}
     //   funtion get post
+<<<<<<< HEAD
 	public String getPostous() {
 		return postous;
+=======
+	public String getPosts() {
+		return posts;
+>>>>>>> main
 	}
 
 	public void setPost(String post) {
