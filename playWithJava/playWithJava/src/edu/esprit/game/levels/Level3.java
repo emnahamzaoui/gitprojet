@@ -21,6 +21,7 @@ public class Level3 {
         System.out.println(names);
         System.out.println("--------------------------");
         System.out.println("------------------a--------------------");
+        System.out.println("------------------riadh--------------------");
 
         /* TO DO 2: Retourner une chaine de caractére qui contient tous les noms des employés en majuscule separés par # */
         System.out.println("tout les nom en majiscule dans une chaine avec # ");
