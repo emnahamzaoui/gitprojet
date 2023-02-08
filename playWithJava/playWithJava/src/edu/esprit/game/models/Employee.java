@@ -54,8 +54,13 @@ public class Employee {
 		return salary;
 	}
 
+
 	public void setSalary(int salary) {
 		this.salary = salary;
+	}
+	public static AddEmp()
+	{
+		System.out.println("add employyees");
 	}
 
 	@Override
@@ -63,7 +68,10 @@ public class Employee {
 		return "Employee [name=" + name + ", post=" + post + ", salary="
 				+ salary + "]";
 	}
-
+public String toString() {
+		return "Etudiant [name=" + name + ", post=" + post + ", salary="
+				+ salary + "]";
+	}
 	@Override
 	public int hashCode() {
 		final int prime = 31;
