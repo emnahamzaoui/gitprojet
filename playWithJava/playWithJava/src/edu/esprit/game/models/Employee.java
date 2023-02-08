@@ -65,7 +65,10 @@ public class Employee {
 		return "Employee [name=" + name + ", post=" + post + ", salary="
 				+ salary + "]";
 	}
-
+public String toString() {
+		return "Etudiant [name=" + name + ", post=" + post + ", salary="
+				+ salary + "]";
+	}
 	@Override
 	public int hashCode() {
 		final int prime = 31;
