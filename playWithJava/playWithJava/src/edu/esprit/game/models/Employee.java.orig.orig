@@ -35,7 +35,7 @@ public class Employee {
 	public void setName(String name) {
 =======
     // get nim	public void setName(String name) {
-
+>>>>>>> 0cd555e57bb1ec25e59a2a7ca6e9894c33f0ac01
 		this.name = name;
 	}
     //   funtion get post

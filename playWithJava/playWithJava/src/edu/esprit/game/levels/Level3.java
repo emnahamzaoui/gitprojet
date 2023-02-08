@@ -19,12 +19,10 @@ public class Level3 {
         System.out.println("tout les nom dans une chaine");
         String names = employees.stream().map(Employee::getName).reduce("", (e1, e2) -> e1 + " " + e2);/* TO DO 1  hint(reduce)*/;
         System.out.println(nom);
-        System.out.println("--------------------------");
-<<<<<<< HEAD
-        System.out.println("---------------anas-------------");
-=======
+
+        System.out.println("------------------a--------------------");
         System.out.println("------------------riadh--------------------");
->>>>>>> 1cc448db87f25c8903adda0b7c114ceeca7d9d26
+
 
         /* TO DO 2: Retourner une chaine de caractére qui contient tous les noms des employés en majuscule separés par # */
         System.out.println("tout les nom en majiscule dans une chaine avec # ");

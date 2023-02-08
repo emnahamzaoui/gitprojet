@@ -27,8 +27,15 @@ public class Employee {
 	public String getNameous() {
 		return nameous;
 	}
+<<<<<<< HEAD
+    // get by emna
+=======
     // get nim
+
 	public void setName(String name) {
+=======
+    // get nim	public void setName(String name) {
+
 		this.name = name;
 	}
     //   funtion get post
